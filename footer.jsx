@@ -11,7 +11,7 @@ import EmailSubscribeForm from './email-subscribe-form'
 const FooterComponent = ({ checkout, activeMenu, data }) => {
   if (!data) return null
   return (
-    <footer>
+    <footer className="r2g-test">
       {!checkout && (
         <div className="grid-container">
           <div className="bottom-row ">
@@ -211,7 +211,7 @@ const FooterComponent = ({ checkout, activeMenu, data }) => {
           </div>
         </div>
       )}
-      <div className="blue-row r2g-test">
+      <div className="blue-row">
         <div className="grid-container grid-margin-y">
           <div className="rtg-logo grid-x">
             <StrapiLink
